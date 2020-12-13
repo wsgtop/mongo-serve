@@ -21,12 +21,10 @@ app.use(router.routes());
 // 在所有路由中间件最后调用，此时更加ctx.status设置response响应头
 app.use(router.allowedMethods());
 
-// app.listen(3000, () => {
-//   console.log("start server listen 3000,loading ...");
-// });
+app.listen(3000, () => {
+  console.log("start server listen 3000,loading ...");
+});
 
-// app.listen(3000,'192.168.1.103')
-app.listen(3000)
 app.on("error", (err, ctx) => {
   log4js.error(err);
 });
