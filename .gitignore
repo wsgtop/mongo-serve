@@ -1,2 +1,4 @@
 node_modules
 logger/logs
+
+local.dev.json

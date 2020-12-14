@@ -1,56 +1,40 @@
 // 日志配置文件
-import path from 'path'
-import log4js from 'log4js'
+import path from "path";
+import log4js from "log4js";
 
-const __dirname = path.resolve('./')
-// console.log(__dirname);
+// log4js默认的日志级别如下：ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < MARK < OFF
+
+const __dirname = path.resolve("./");
 log4js.configure({
   appenders: {
-    info: {
-      // type: "dateFile",
-      type: "console",
-      filename: path.join(__dirname, '/logger/logs', 'info', 'info'),// 您要写入日志文件的路径
-      //compress: true, //（默认为false） - 在滚动期间压缩备份文件（备份文件将具有.gz扩展名）
-      pattern: "yyyy-MM-dd.log", //（可选，默认为.yyyy-MM-dd） - 用于确定何时滚动日志的模式。格式:.yyyy-MM-dd-hh:mm:ss.log
-      encoding: 'utf-8', // default "utf-8"，文件的编码
-      // maxLogSize: 10000000, // 文件最大存储空间，当文件内容超过文件存储空间会自动生成一个文件xxx.log.1的序列自增长的文件
-      alwaysIncludePattern: true, //（默认为false） - 将模式包含在当前日志文件的名称以及备份中
+    // 配置打印输出源
+    trace: {
+      type: "console", // 控制台打印日志
+      // type: "file", // 表示日志输出为普通文件，在此种配置下日志会输出到目标文件夹的目标文件中，并会随着文件大小的变化自动份文件
+      // type: "dateFile", // 表示是输出按时间分文件的日志，在此种配置下,日志会输出到目标目录下，并以时间格式命名，随着时间的推移，以时间格式命名的文件如果尚未存在，则自动创建新的文件.
+      // compress: true, //（默认为false） - 在滚动期间压缩备份文件（备份文件将具有.gz扩展名）
+      // maxLogSize: 10000000, // 文件最大存储空间,单位是字节,只在type: file模式有效,表示文件多大时才会创建下一个文件（ xxx.log .1 之类）
+      filename: path.join(__dirname, "/logger/logs", "trace", "trace"), // 写入日志文件的路径
+      pattern: "yyyy-MM-dd.log", //确定何时滚动日志的模式,只在type: dateFile模式有效,(默认为.yyyy-MM-dd0),表示一个文件的时间命名模式,格式:.yyyy-MM-dd-hh:mm:ss.log,在生成文件中会依照pattern配置来在filename的文件结尾追加一个时间串来命名文件。
+      encoding: "utf-8", // default "utf-8"，文件的编码
+      alwaysIncludePattern: true, //将模式包含在当前日志文件的名称以及备份中,只在type: dateFile模式有效,(默认为false),配置为ture即最终的日志路径文件名为filename + pattern
+      //backups： 只在type: file模式有效,表示备份的文件数量,如果文件过多则会将最旧的删除。
     },
-    error: {// 错误日志
-      // type: 'dateFile',
-      type: 'console',
-      filename: path.join(__dirname, '/logger/logs', 'error', 'error'),
-      pattern: 'yyyy-MM-dd.log',
-      encoding: 'utf-8', // default "utf-8"，文件的编码
-      // maxLogSize: 10000000, // 文件最大存储空间，当文件内容超过文件存储空间会自动生成一个文件xxx.log.1的序列自增长的文件
-      alwaysIncludePattern: true
+    file: {
+      type: "file",
+      filename: path.join(__dirname, "/logger/logs", 'log'),
+      pattern: "yyyy-MM-dd.log",
+      encoding: "utf-8",
+      alwaysIncludePattern: true,
+    },
+    console: {
+      type: "console",
     }
   },
   categories: {
-    default: { appenders: ['info'], level: 'info' },
-    info: { appenders: ['info'], level: 'info' },
-    error: { appenders: ['error'], level: 'error' }
+    default: { appenders: ["console"], level: "trace" },
+    cheese: { appenders: ["console", "file"], level: "trace" },
   }
 });
 
-
-/**
- * 错误日志记录方式
- * @param {*} content 日志输出内容
- */
-const error =   function (content) {
-  const log = log4js.getLogger("error");
-  log.error(content)
-}
-/**
- * 日志记录方式
- * @param {*} content 日志输出内容
- */
-const info  = function  (content) {
-  const log = log4js.getLogger("info");
-  log.info(content)
-}
-
-export default {
-  error ,info
-}
+export const logger = log4js.getLogger();
