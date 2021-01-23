@@ -33,8 +33,9 @@ log4js.configure({
   },
   categories: {
     default: { appenders: ["console"], level: "trace" },
-    cheese: { appenders: ["console", "file"], level: "trace" },
+    cheese: { appenders: ["console", "file"], level: "warn" },
   }
 });
 
 export const logger = log4js.getLogger();
+export const loggerCheese = log4js.getLogger('cheese');
