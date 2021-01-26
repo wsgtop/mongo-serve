@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 import { logger } from "../logger/log4js.js";
+import chalk from 'chalk'
+
 const url = 'mongodb://127.0.0.1/Wangshaoguang'
 const options = {
   useNewUrlParser: true, // 使用新的连接字符串解析器
@@ -21,6 +23,7 @@ db.on("connecting", () => {
 });
 db.on("connected", () => {
   logger.debug("Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected");
+  // logger.debug(chalk.red.bold("Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected"));
 });
 db.on("open", () => {
   //  相当于 connected
@@ -34,12 +37,14 @@ db.on("disconnected", () => {
 });
 db.on("close", () => {
   logger.debug("调用Connection#close()成功断开与MongoDB的连接。 mongoose is close");
+  mongoose.connect(url, {server:{auto_reconnect:true}});
 });
 db.on("reconnected", () => {
   logger.debug("Mongoose失去与MongoDB的连接并成功重新连接。 mongoose is reconnected");
 });
 db.on("error", () => {
   logger.error("parseError由于数据格式错误或有效负载大于16MB而导致连接发生错误。 mongoose is error");
+  mongoose.disconnect();
 });
 db.on("fullsetup", () => {
   logger.debug("当您连接到副本集且Mongoose已成功连接到主数据库和至少一个辅助数据库时发出。 mongoose is fullsetup");
