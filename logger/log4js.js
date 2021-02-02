@@ -22,20 +22,20 @@ log4js.configure({
     },
     file: {
       type: "file",
-      filename: path.join(__dirname, "/logger/logs", 'log'),
+      filename: path.join(__dirname, "/logger/logs", "log"),
       pattern: "yyyy-MM-dd.log",
       encoding: "utf-8",
       alwaysIncludePattern: true,
     },
     console: {
       type: "console",
-    }
+    },
   },
   categories: {
-    default: { appenders: ["console"], level: "trace" },
+    default: { appenders: ["console", "file"], level: "trace" },
     cheese: { appenders: ["console", "file"], level: "warn" },
-  }
+  },
 });
 
 export const logger = log4js.getLogger();
-export const loggerCheese = log4js.getLogger('cheese');
+export const loggerCheese = log4js.getLogger("cheese");
