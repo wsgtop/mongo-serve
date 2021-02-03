@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 import {logger} from "../logger/log4js.js";
 import chalk from 'chalk'
-import fse from 'fs-extra'
 import {cfg} from '../config/config.js'
 const {mongo} = cfg
 const {connection,options} = mongo
@@ -9,6 +8,7 @@ const {connection,options} = mongo
 const url = 'mongodb://'+connection.user+':'+connection.password+ '@'+connection.host + ':'+connection.port + '/' +connection.database
 logger.info('数据库连接URL：',url)
 mongoose.connect(url,options)
+
 const db = mongoose.connection;
 
 db.on("connecting", () => {
@@ -50,4 +50,4 @@ db.on("reconnectFailed", () => {
   logger.debug("当您连接到独立服务器且Mongoose用完时发出reconnectTries。发出此事件后，MongoDB驱动程序将不再尝试重新连接。如果您连接到副本集，则永远不会发出此事件。 mongoose is reconnectFailed");
 });
 // db.close() 显示关闭链接
-export const mongoServer = db;
+export  default db

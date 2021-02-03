@@ -1,11 +1,16 @@
 import Koa from "koa";
 import koaLogger from "koa-logger";
 import moment from "moment";
-
+import koaBody from 'koa-body'
 import { logger } from "./logger/log4js.js";
 import user from "./routers/user/index.js";
-
+import db from './dbs/mongo_conn.js'
 const app = new Koa();
+app.use(koaBody({
+  Multipart:true, //这里补充一点，如果不加multipart：true ctx.request.body会获取不到值
+  Formidable:{
+  maxFileSize:20010241024}
+  }))
 // 添加请求日志
 const koaLog = koaLogger((str) =>
   logger.debug(moment().format("YYYY-MM-DD HH:mm:ss") + str)
@@ -17,11 +22,11 @@ app.use(async (ctx,next) => {
   try {
     await next()
     if(!ctx.body){
-      ctx.status ='404'
+      ctx.status = 404
       ctx.body = 'not found'  
     }
   } catch (error) {
-    ctx.status ='500'
+    ctx.status =500
     ctx.body = 'server error'
     // throw error
   }

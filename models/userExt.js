@@ -1,5 +1,4 @@
-import { mongoServer } from "../dbs/mongo_conn.js";
-import mongoose from "mongoose";
+import  mongoose  from "mongoose";
 const { Schema } = mongoose;
 const UserExtsSchema = new Schema({
   username: String,
@@ -13,5 +12,5 @@ const UserExtsSchema = new Schema({
   ofObjectId: [Schema.Types.ObjectId],
   birthday: Date
 });
-const UserExtsModel = mongoServer.model("UserExt", UserExtsSchema);
+const UserExtsModel = mongoose.model("UserExt", UserExtsSchema,'tempUserExt');
 export default UserExtsModel;

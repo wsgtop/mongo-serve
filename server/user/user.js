@@ -1,5 +1,5 @@
 import { logger } from "../../logger/log4js.js";
-import UserModel from "../../modles/user.js";
+import UserModel from "../../models/user.js";
 
 const data = {
   username: "王晓武",
