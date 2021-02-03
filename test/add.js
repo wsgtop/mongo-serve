@@ -1,5 +1,5 @@
-import dbs from '../../dbs/dbOpsMongo.js'
-import user from '../../models/user.js'
+import dbs from '../dbs/dbOpsMongo.js'
+import user from '../models/user.js'
 
 const data = {
   username: "王晓武",

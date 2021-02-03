@@ -2,7 +2,7 @@ import Koa from "koa";
 import koaLogger from "koa-logger";
 import moment from "moment";
 import koaBody from 'koa-body'
-import { logger } from "./logger/log4js.js";
+import { logger } from "./logs/log4js.js";
 import user from "./routers/user/index.js";
 import db from './dbs/mongo_conn.js'
 const app = new Koa();

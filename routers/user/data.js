@@ -1,5 +1,5 @@
 import dbs from "../../dbs/dbOpsMongo.js";
-import { logger } from "../../logger/log4js.js";
+import { logger } from "../../logs/log4js.js";
 import UserModel from "../../models/user.js";
 const addUser = async (ctx) => {
   // node.js原始使用

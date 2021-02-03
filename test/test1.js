@@ -1,4 +1,4 @@
-import { logger,loggerCheese } from '../logger/log4js.js';
+import { logger,loggerCheese } from '../logs/log4js.js';
 
 // logger.all('all')
 logger.trace("trace");

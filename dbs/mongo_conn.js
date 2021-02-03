@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import {logger} from "../logger/log4js.js";
+import {logger} from "../logs/log4js.js";
 import chalk from 'chalk'
 import {cfg} from '../config/config.js'
 const {mongo} = cfg

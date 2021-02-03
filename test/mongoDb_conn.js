@@ -1,4 +1,4 @@
-import { logger } from '../logger/log4js.js';
+import { logger } from '../logs/log4js.js';
 
 import mongoose from "mongoose";
 

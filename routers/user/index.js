@@ -1,5 +1,5 @@
 import Router from "koa-router";
-import { logger } from "../../logger/log4js.js";
+import { logger } from "../../logs/log4js.js";
 const router = new Router();
 
 import d from "./data.js";
