@@ -1,0 +1,248 @@
+[2021-02-03T17:43:20.718] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:43:20.771] [INFO] default - 2021-02-03 17:43:20  start server listening on Port 3000
+[2021-02-03T17:43:20.822] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:43:20.823] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:43:50.288] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:43:50.309] [INFO] default - 2021-02-03 17:43:50  start server listening on Port 3000
+[2021-02-03T17:43:50.340] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:43:50.341] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:45:44.974] [DEBUG] default - 2021-02-03 17:45:44  [90m<--[39m [1mGET[22m [90m/user/add1[39m
+[2021-02-03T17:45:44.980] [DEBUG] default - 2021-02-03 17:45:44  [90m-->[39m [1mGET[22m [90m/user/add1[39m [33m404[39m [90m6ms[39m [90m9b[39m
+[2021-02-03T17:46:10.993] [DEBUG] default - 2021-02-03 17:46:10  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:48:18.789] [DEBUG] default - 2021-02-03 17:48:18  [90m<--[39m [1mPOST[22m [90m/user/add2[39m
+[2021-02-03T17:48:18.790] [INFO] default - { username: '王晓武123', userpwd: '123456', userage: 15 }
+[2021-02-03T17:48:18.829] [DEBUG] default - 2021-02-03 17:48:18  [90m-->[39m [1mPOST[22m [90m/user/add2[39m [32m200[39m [90m40ms[39m [90m6b[39m
+[2021-02-03T17:48:50.571] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:48:50.592] [INFO] default - 2021-02-03 17:48:50  start server listening on Port 3000
+[2021-02-03T17:48:50.623] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:48:50.624] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:49:55.665] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:49:55.688] [INFO] default - 2021-02-03 17:49:55  start server listening on Port 3000
+[2021-02-03T17:49:55.719] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:49:55.721] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:50:10.143] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:50:10.163] [INFO] default - 2021-02-03 17:50:10  start server listening on Port 3000
+[2021-02-03T17:50:10.196] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:50:10.198] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:50:16.256] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:50:16.276] [INFO] default - 2021-02-03 17:50:16  start server listening on Port 3000
+[2021-02-03T17:50:16.314] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:50:16.316] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:50:58.289] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:50:58.308] [INFO] default - 2021-02-03 17:50:58  start server listening on Port 3000
+[2021-02-03T17:50:58.343] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:50:58.345] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:51:01.923] [DEBUG] default - 2021-02-03 17:51:01  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:51:01.928] [DEBUG] default - 2021-02-03 17:51:01  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m6ms[39m [90m12b[39m
+[2021-02-03T17:51:25.026] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:51:25.045] [INFO] default - 2021-02-03 17:51:25  start server listening on Port 3000
+[2021-02-03T17:51:25.088] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:51:25.093] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:51:44.258] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:51:44.279] [INFO] default - 2021-02-03 17:51:44  start server listening on Port 3000
+[2021-02-03T17:51:44.316] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:51:44.319] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:51:46.926] [DEBUG] default - 2021-02-03 17:51:46  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:51:46.931] [DEBUG] default - 2021-02-03 17:51:46  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m6ms[39m [90m12b[39m
+[2021-02-03T17:52:02.415] [DEBUG] default - 2021-02-03 17:52:02  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:52:02.417] [DEBUG] default - 2021-02-03 17:52:02  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m2ms[39m [90m12b[39m
+[2021-02-03T17:52:03.594] [DEBUG] default - 2021-02-03 17:52:03  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:52:03.596] [DEBUG] default - 2021-02-03 17:52:03  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m2ms[39m [90m12b[39m
+[2021-02-03T17:52:04.408] [DEBUG] default - 2021-02-03 17:52:04  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:52:04.410] [DEBUG] default - 2021-02-03 17:52:04  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m1ms[39m [90m12b[39m
+[2021-02-03T17:52:05.507] [DEBUG] default - 2021-02-03 17:52:05  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:52:05.509] [DEBUG] default - 2021-02-03 17:52:05  [90m-->[39m [1mPOST[22m [90m/user/add1[39m [31m500[39m [90m2ms[39m [90m12b[39m
+[2021-02-03T17:52:27.906] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:52:27.931] [INFO] default - 2021-02-03 17:52:27  start server listening on Port 3000
+[2021-02-03T17:52:27.962] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:52:27.963] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:52:29.781] [DEBUG] default - 2021-02-03 17:52:29  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:52:29.782] [DEBUG] default - ctx {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': '05b98eac-9e53-4384-83cc-c84e4f9cd0c1',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+[2021-02-03T17:54:09.085] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:54:09.104] [INFO] default - 2021-02-03 17:54:09  start server listening on Port 3000
+[2021-02-03T17:54:09.204] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:54:09.205] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:54:14.754] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T17:54:14.776] [INFO] default - 2021-02-03 17:54:14  start server listening on Port 3000
+[2021-02-03T17:54:14.808] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T17:54:14.809] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T17:54:18.865] [DEBUG] default - 2021-02-03 17:54:18  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T17:54:18.866] [DEBUG] default - ctx {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': 'ce971757-a13a-45aa-8dab-70a4611f1c25',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+[2021-02-03T18:06:33.453] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T18:06:33.477] [INFO] default - 2021-02-03 18:06:33  start server listening on Port 3000
+[2021-02-03T18:06:33.509] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T18:06:33.510] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T18:07:17.839] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T18:07:17.861] [INFO] default - 2021-02-03 18:07:17  start server listening on Port 3000
+[2021-02-03T18:07:17.891] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T18:07:17.893] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T18:07:36.957] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T18:07:36.976] [INFO] default - 2021-02-03 18:07:36  start server listening on Port 3000
+[2021-02-03T18:07:37.014] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T18:07:37.016] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T18:07:45.334] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T18:07:45.356] [INFO] default - 2021-02-03 18:07:45  start server listening on Port 3000
+[2021-02-03T18:07:45.390] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T18:07:45.392] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T18:07:47.934] [DEBUG] default - 2021-02-03 18:07:47  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T18:07:47.935] [DEBUG] default - ctx {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': 'fd09fb73-eead-4bb4-b7fc-7701b0145cba',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+[2021-02-03T18:07:47.978] [DEBUG] default - ctx2 {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': 'fd09fb73-eead-4bb4-b7fc-7701b0145cba',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+[2021-02-03T18:07:47.983] [DEBUG] default - postdata2 
+[2021-02-03T18:07:47.984] [DEBUG] default - postdata3 
+[2021-02-03T18:08:02.053] [INFO] default - 数据库连接URL： mongodb://admin:admin@127.0.0.1:27017/Daguang
+[2021-02-03T18:08:02.073] [INFO] default - 2021-02-03 18:08:02  start server listening on Port 3000
+[2021-02-03T18:08:02.113] [INFO] default - [32m[1mMongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is connected[22m[39m
+[2021-02-03T18:08:02.115] [INFO] default - Mongoose成功建立到MongoDB服务器的初始连接，或者Mongoose在失去连接后重新连接  mongoose is open
+[2021-02-03T18:08:04.242] [DEBUG] default - 2021-02-03 18:08:04  [90m<--[39m [1mPOST[22m [90m/user/add1[39m
+[2021-02-03T18:08:04.244] [DEBUG] default - ctx {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': '02416ba8-891d-4391-995e-31c94decc755',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+[2021-02-03T18:08:04.263] [DEBUG] default - ctx2 {
+  request: {
+    method: 'POST',
+    url: '/user/add1',
+    header: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.26.10',
+      accept: '*/*',
+      'postman-token': '02416ba8-891d-4391-995e-31c94decc755',
+      host: 'localhost:3000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-length': '76'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/add1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}

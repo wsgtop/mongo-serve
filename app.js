@@ -5,6 +5,8 @@ import koaBody from 'koa-body'
 import { logger } from "./logs/log4js.js";
 import user from "./routers/user/index.js";
 import db from './dbs/mongo_conn.js'
+// 引入db的同时会进行数据库的连接
+
 const app = new Koa();
 app.use(koaBody({
   Multipart:true, //这里补充一点，如果不加multipart：true ctx.request.body会获取不到值
@@ -12,7 +14,7 @@ app.use(koaBody({
   maxFileSize:20010241024}
   }))
 // 添加请求日志
-const koaLog = koaLogger((str) =>
+const koaLog = koaLogger(str =>
   logger.debug(moment().format("YYYY-MM-DD HH:mm:ss") + str)
 );
 app.use(koaLog);
